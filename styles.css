@@ -1,0 +1,89 @@
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+p, h1{
+    margin: 0;
+}
+
+
+
+h1{
+    font-size: 1.5em;
+}
+
+body{
+    background-color: #f5d742;
+    font-family: 'Figtree';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    background-color: white;
+    max-width: 370px;
+    margin: 180px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    border-radius: 16px;
+    border: 1px solid #000;
+    box-shadow: 8px 8px 0px 0px #000;
+}
+
+svg{
+    border-radius: 16px;
+}
+
+.badge{
+    background-color: #f5d742;
+    font-weight: bold;
+    border-radius: 4px;
+    display: flex;
+    padding: 4px 8px;
+    align-items: center;;
+    align-self: flex-start;
+}
+
+.badge-date-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.date{
+    font-size: .9em;
+}
+
+.description{
+    color: rgba(0, 0, 0, 0.71);
+    font-family: Figtree;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 141.667% */
+    padding-bottom: 8px;
+}
+
+
+.author-profile{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
